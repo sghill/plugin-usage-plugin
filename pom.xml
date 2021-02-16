@@ -13,9 +13,17 @@
   <name>Plugin Usage - Plugin</name>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>plugin-usage-plugin</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.1.0+api</version>
   <packaging>hpi</packaging>
-  <url>https://github.com/jenkinsci/plugin-usage-plugin</url>
+  <url>https://github.com/sghill/plugin-usage-plugin</url>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/sghill/plugin-usage-plugin</url>
+    </repository>
+  </distributionManagement>
 
   <licenses>
     <license>
